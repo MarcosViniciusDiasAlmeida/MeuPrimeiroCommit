@@ -1,21 +1,23 @@
-Suporte para uso do git hub. ##Comandos básicos
+Suporte para uso do git hub. 
 
-git clone : Esse comando irá gerar uma "cópia" do repositório na maquina.
+Comandos básicos
 
-git status : Esse comando irá um "relátorio" indicando o status atual do repositorio. Indicando, por exemplo, se houve alguma mudança, ou se as mundaças foram validadas.
+"git clone" : Esse comando irá gerar uma "cópia" do repositório na maquina.
 
-git add . : Esse comando irá fazer com que todas as mundaças realizadas no repositorio(clonado) sejam aplicadas (fiquem visiveis).
+"git status" : Esse comando irá um "relátorio" indicando o status atual do repositorio. Indicando, por exemplo, se houve alguma mudança, ou se as mundaças foram validadas.
 
-git commit -m "texto" : Esse comando irá criar uma commit(enviar) para o git, e é possivel colocar um comentario para deixar mais evidente o que está sendo realizado.
+"git add ." : Esse comando irá fazer com que todas as mundaças realizadas no repositorio(clonado) sejam aplicadas (fiquem visiveis).
 
-git pull" : Esse comando irá atualizar o repositório local(clone) baseado no repositório da nuvem(remoto).
+"git commit -m "texto"" : Esse comando irá criar uma commit(enviar) para o git, e é possivel colocar um comentario para deixar mais evidente o que está sendo realizado.
 
-git push" : Esse comando irá atualizar o repositório da nuvem(remoto) baseado no repositório local(clone). Na pratica, ele irá upar arquivos, atualizações e etc. ele é o processo final.
+"git pull" : Esse comando irá atualizar o repositório local(clone) baseado no repositório da nuvem(remoto).
 
-git log" : Esse comando irá gerar um histrico de alterações feitas no repositório, gerando até mesmo numeros de commit, que se usadas no git reset pode ser possivel reverter alterações. git reset" : Esse comando irá "voltar" o repositório para a commit especificada.
+"git push" : Esse comando irá atualizar o repositório da nuvem(remoto) baseado no repositório local(clone). Na pratica, ele irá upar arquivos, atualizações e etc. ele é o processo final.
 
-git congif --global user.name "Nome(referencia do nome da pessoa)" : Esse comando irá "indentificar" o user que está "alterando".
+"git log" : Esse comando irá gerar um histrico de alterações feitas no repositório, gerando até mesmo numeros de commit, que se usadas no git reset pode ser possivel reverter alterações. git reset" : Esse comando irá "voltar" o repositório para a commit especificada.
 
-git congif --global user.emai "email" : Esse comando irá "indentificar" o email que está "alterando".
+"git congif --global user.name "Nome(referencia do nome da pessoa)"" : Esse comando irá "indentificar" o user que está "alterando".
 
-cmdkey /delete:LegacyGeneric:target=git:https://github.com : Esse comando irá retirar o usuario autenticado.
+"git congif --global user.emai "email"" : Esse comando irá "indentificar" o email que está "alterando".
+
+"cmdkey /delete:LegacyGeneric:target=git:https://github.com" : Esse comando irá retirar o usuario autenticado.
